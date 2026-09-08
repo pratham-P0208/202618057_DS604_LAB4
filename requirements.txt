@@ -1,0 +1,14 @@
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+plotly>=5.15.0
+seaborn>=0.12.0
+matplotlib>=3.7.0
+
+streamlit: Powers the interactive 3-tab web dashboard UI.  
+statsmodels: Fits OLS regressions, extracts fit metrics (R-square, p-values, CIs), and checks VIF.  
+scipy: Runs parametric and non-parametric hypothesis tests (Shapiro-Wilk, Levene's, t-test, Mann-Whitney U, Chi-Square, ANOVA). 
+pandas & numpy: Handles data manipulation and statistical summary metrics (mean, IQR, skewness, kurtosis).  
+plotly / seaborn / matplotlib: Renders interactive charts, correlation matrices, histograms, and diagnostic plots (Q-Q, residuals).   
